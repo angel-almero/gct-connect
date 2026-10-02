@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.gct-navbar {
+    background-color: #051f41;
+    padding: 10px 0;
+}
+
+.gct-logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.brand-text {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #ffffff;
+    font-family: "PlayfairDisplay", serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.brand-text small {
+    color: #c69955;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.gct-navbar .nav-link {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin: 0 6px;
+    transition: 0.2s;
+}
+.gct-navbar .nav-link:hover {
+    color: #c69955;
+}
+.gct-navbar .nav-link.active {
+    color: #c69955 !important; 
+    border-bottom: 2px solid #c69955;
+}
+
+.navbar-toggler {
+    border: 1px solid #c69955 !important;
+    padding: 8px;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+
+
+.events-hero {
+    background-image: url('assets/gct-hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+}
+
+.events-hero-content {
+    color: #051F41;
+    padding: 60px 0;
+    width: 100%;
+    max-width: 550px;
+    margin-left: 0;
+}
+
+.events-hero-content h1 {
+    font-family: "PlayfairDisplay", serif;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1;
+    
+}
+.events-hero-content .gold-text {
+    color: #c69955;
+}
+
+.events-hero-content p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+    .gct-navbar .nav-link.active { 
+    border-bottom: none;
+    border-left: 2px solid #c69955;
+    padding-left: 10px;
+    }
+
+}
+
